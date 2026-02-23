@@ -1,19 +1,6 @@
-
-#   _____ _____ _____ _____ _____ 
-#  |__   |   __|  |  | __  |     |
-#  |   __|__   |     |    -|   --|
-#  |_____|_____|__|__|__|__|_____|
-#
-#  by Bina
-
-
-# -- $PATH variable --
 export PATH=$HOME/bin:/usr/bin:/usr/local/bin:$PATH
 
-# -- oh-my-zsh --
-# https://github.com/ohmyzsh
 export ZSH=$HOME/.oh-my-zsh
-# decide on a theme (or create your own)
 ZSH_THEME="robbyrussell"
 plugins=( 
     git
@@ -73,3 +60,5 @@ alias gra="git remote add"
 alias grr="git remote rm"
 alias gsh="git stash"
 alias fastfetch-theme-selector="bash ~/.config/fastfetch-theme-selector/FastCat/fastcat.sh -s"
+
+fastfetch
